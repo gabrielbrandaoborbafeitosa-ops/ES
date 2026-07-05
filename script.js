@@ -13,7 +13,7 @@ if (comando == 'cowspeak'){
 } else if(comando == 'open-window') {
     window.open(valor)
 } else {
-    saida.innerText = 'Spelling error: ' + valor + ': Command not found';
+    saida.innerText = 'Spelling error: ' + comando + ': Command not found';
 }
 }
 function explicar() {

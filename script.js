@@ -12,6 +12,8 @@ if (comando == 'cowspeak'){
     saida.innerText = valor;
 } else if(comando == 'open-window') {
     window.open(valor)
+} else {
+    saida.innerText = 'Spelling error: ' + valor + ': Command not found';
 }
 }
 function explicar() {
